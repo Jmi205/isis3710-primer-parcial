@@ -1,5 +1,24 @@
 {
   "HomePage": {
     "title": "Hola mundo!"
+  },
+  "pokemonList": {
+    "loading": "Cargando pokemones...",
+    "type": "Tipo",
+    "title": "Lista de Pokémon"
+  },
+  "footer": {
+    "rights": "© 2025 PokeApp. Todos los derechos reservados.",
+    "develop": "Desarrollado para: ISIS37110"
+  },
+  "detail": {
+    "loading": "Cargando detalles...",
+    "noFound": "No se encontró el pokemon",
+    "detail": "Detalles del Pokémon",
+    "weight": "Peso",
+    "height": "Altura",
+    "abilities": "Habilidades",
+    "types": "Tipos"
+
   }
 }

@@ -26,10 +26,12 @@ export default async function RootLayout({children, params}: Props) {
 
   return (
     <html lang="en">
-      <body>
-        <Header/>
-        <NextIntlClientProvider>{children}</NextIntlClientProvider>
-        <Footer/>
+      <body className="flex flex-col min-h-screen">
+        <Header />
+        <main className="flex-grow  bg-[#D9E9FE]">
+          <NextIntlClientProvider>{children}</NextIntlClientProvider>
+        </main>
+        <Footer />
       </body>
     </html>
   );
